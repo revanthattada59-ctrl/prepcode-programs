@@ -1,0 +1,1 @@
+l=["val**2"if val%2==0 else "val**3" for val in l]
