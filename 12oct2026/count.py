@@ -10,4 +10,5 @@ for cur in range(1, len(l)):
         count = count + 1
     else:
         count = 1
-    max = max(count, length)
+    length = max(count, length)
+print(length)
